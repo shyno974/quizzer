@@ -1,0 +1,23 @@
+.container,
+.app-container {
+  align-items: center;
+  border: 2px solid black;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 20px;
+  box-shadow: 5px -5px 5px rgba(128, 128, 128, 0.8);
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+  width: 50%;
+}
+h1 {
+  margin: 10px;
+}
+h4 {
+  margin-bottom: 20px;
+  color: #944ba9;
+}
